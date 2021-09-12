@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UserProfile</string>
+    <string name="textView_Name">Name:</string>
+    <string name="textView_Email">Email:</string>
+    <string name="textView_ID">ID:</string>
+    <string name="textView_Dept">Dept:</string>
+    <string name="buttonText_Submit">Submit</string>
+    <string name="buttonText_Cancel">Cancel</string>
+    <string name="buttonText_Select">Select</string>
+    <string name="radioButton_CS">Computer Science</string>
+    <string name="radioButton_SIS">Software Info. Systems</string>
+    <string name="radioButton_BioInfo">Bio Infomatics</string>
+    <string name="radioButton_DS">Data Science</string>
+</resources>
