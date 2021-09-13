@@ -25,4 +25,30 @@ public class MainActivity extends AppCompatActivity {
         editText_Email=findViewById(R.id.editText_Email);
 
     }
+    /*
+        Sets ActionBar Color to Black For Activity and Title
+     */
+    private void setActionBarConfig() {
+        ActionBar aBar = getSupportActionBar();
+        ColorDrawable cd = new ColorDrawable(Color.parseColor("#000000"));
+        assert aBar != null;
+        aBar.setBackgroundDrawable(cd);
+        aBar.setTitle(R.string.Main_ActionBar);
+    }
+
+    public void submitData(View view){
+        if (editText_Name.getText().toString() == null || editText_Name.getText().toString().length() == 0){
+            Toast.makeText(MainActivity.this, "Please Enter Proper Name", Toast.LENGTH_SHORT).show();
+        }
+        else if (editText_Email.getText().toString() == null || editText_Email.getText().toString().length() == 0){
+            Toast.makeText(MainActivity.this, "Please Enter Proper Email", Toast.LENGTH_SHORT).show();
+        }else if(editText_ID.getText().toString() == null || editText_ID.getText().toString().length() == 0){
+            Toast.makeText(MainActivity.this, "Please Enter Proper ID", Toast.LENGTH_SHORT).show();
+        }/*else if (){
+
+        }*/
+        else{
+
+        }
+    }
 }
