@@ -11,4 +11,9 @@
     <string name="radioButton_SIS">Software Info. Systems</string>
     <string name="radioButton_BioInfo">Bio Infomatics</string>
     <string name="radioButton_DS">Data Science</string>
+    <string name="editText_Name_hint">Enter Name</string>
+    <string name="editText_Email_Hint">Enter Email</string>
+    <string name="editText_ID_Hint">Enter ID</string>
+    <string name="Main_ActionBar">Registration</string>
+    <string name="Second_ActionBar">Department</string>
 </resources>
