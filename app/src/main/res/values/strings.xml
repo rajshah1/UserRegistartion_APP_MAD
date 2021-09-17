@@ -16,4 +16,5 @@
     <string name="editText_ID_Hint">Enter ID</string>
     <string name="Main_ActionBar">Registration</string>
     <string name="Second_ActionBar">Department</string>
+    <string name="Third_ActionBar">Profile</string>
 </resources>
